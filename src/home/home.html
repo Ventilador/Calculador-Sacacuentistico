@@ -1,0 +1,9 @@
+<div class="root">
+    <div class="navigation-container">
+        <div ng-repeat="item in navigationItems" class="navigation-item">
+            {{item.count}}
+            <a href ng-click="item.go()" ng-bind="item.displayName"></a>
+        </div>
+    </div>
+    <div class="content" ui-view></div>
+</div>

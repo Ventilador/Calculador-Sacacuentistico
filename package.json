@@ -1,0 +1,36 @@
+{
+  "name": "debtcalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ventilador/debtCalculator.git"
+  },
+  "keywords": [
+    "debt",
+    "calculator"
+  ],
+  "author": "Ventilador",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ventilador/debtCalculator/issues"
+  },
+  "homepage": "https://github.com/Ventilador/debtCalculator#readme",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-ui-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "html-loader": "^0.4.5",
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
